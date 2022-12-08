@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px;
+  background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  font-family: 'Playfair Display', serif;
+}
+
+.hero {
+  text-align: center;
+  background-color: rgb(203, 230, 252);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 98px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding: none;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.buttons a {
+  margin: 20px;
+}
+
+.secondary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.button-about {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.home-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.email-link {
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
